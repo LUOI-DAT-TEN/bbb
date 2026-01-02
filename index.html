@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Của Tôi</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 800px;
+            width: 100%;
+            padding: 40px;
+            animation: fadeIn 0.8s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+        }
+        
+        .content {
+            margin: 30px 0;
+        }
+        
+        .card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #667eea;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateX(5px);
+        }
+        
+        .card h3 {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            margin: 10px 5px;
+        }
+        
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Chào Mừng! 👋</h1>
+            <p class="subtitle">Đây là trang web đơn giản của bạn</p>
+        </header>
+        
+        <div class="content">
+            <div class="card">
+                <h3>📝 Giới Thiệu</h3>
+                <p>Đây là một trang web HTML đơn giản với thiết kế hiện đại. Bạn có thể tùy chỉnh nội dung theo ý muốn.</p>
+            </div>
+            
+            <div class="card">
+                <h3>✨ Tính Năng</h3>
+                <p>Trang web này có thiết kế responsive, hiệu ứng hover đẹp mắt và gradient màu sắc bắt mắt.</p>
+            </div>
+            
+            <div class="card">
+                <h3>🚀 Bắt Đầu</h3>
+                <p>Bạn có thể chỉnh sửa code HTML này để tạo ra trang web độc đáo của riêng mình!</p>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px;">
+                <a href="#" class="button">Tìm Hiểu Thêm</a>
+                <a href="#" class="button">Liên Hệ</a>
+            </div>
+        </div>
+        
+        <footer>
+            <p>© 2026 - Trang Web Của Tôi</p>
+        </footer>
+    </div>
+</body>
+</html
